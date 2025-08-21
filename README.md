@@ -47,3 +47,67 @@ Python, MySQL, Socket Programming (Comm), Elliptic Curve Cryptography
 | **Node.js (Optional Backend Middleware)**                | (If needed) to run custom cryptographic logic beyond Supabase’s capabilities.              | Acts as a middle layer where advanced **crypto operations** can be handled securely if not fully supported in Supabase.                                                                        |
 | **Cloud Deployment (Supabase Cloud / Vercel / Netlify)** | Hosting the app & backend in the cloud.                                                    | Enables **realistic cloud environment** deployment, aligning with the **peer-to-peer cloud project domain**.                                                                                   |
 
+# Authentication & Key Agreement based on Anonymous Identity for Peer-to-Peer Cloud
+
+## 📌 About the Project
+This project focuses on building a **secure authentication and key agreement system** for **peer-to-peer (P2P) cloud environments**.  
+It uses **anonymous identity-based cryptography** to protect user privacy while ensuring secure communication.  
+By combining **Elliptic Curve Cryptography (ECC)** and **Secure Remote Password (SRP)**, the system enables secure key exchange without exposing real user identities.
+
+---
+
+## ⚙️ How it Works
+1. Each peer generates an **anonymous identity**.
+2. When two peers connect:
+   - They perform **mutual authentication** using SRP.
+   - A **session key** is established with ECC-based key exchange.
+3. The session key is used to **encrypt communication** (AES-GCM).
+4. Supabase provides:
+   - **Auth** → for identity management.
+   - **Realtime** → for peer-to-peer signaling.
+   - **Postgres** → for storing encrypted metadata.
+   - **REST APIs** → for secure interaction between frontend and backend.
+
+---
+
+## Tech Stack
+| Component | Usage |
+|-----------|-------|
+| **React.js** | Frontend interface for users/peers. |
+| **Supabase Auth** | Authentication & anonymous identity management. |
+| **Supabase Realtime** | Peer-to-peer communication channel for key exchange. |
+| **Supabase Postgres** | Stores metadata and encrypted session data. |
+| **Supabase REST APIs** | Secure communication between frontend & backend. |
+| **ECC (Elliptic Curve Cryptography)** | Lightweight cryptography for key exchange. |
+| **SRP (Secure Remote Password)** | Password-authenticated key agreement. |
+| **AES-GCM** | Session encryption after key establishment. |
+| **Node.js (optional)** | Middleware for advanced crypto operations. |
+
+---
+
+## Expected Outcomes
+- Secure authentication in **P2P cloud systems**.  
+- **Anonymous identity** support for enhanced privacy.  
+- **Lightweight & efficient** cryptographic operations compared to PKI.  
+- Scalable for **IoT, multi-cloud, and blockchain-based environments**.  
+
+---
+
+## Future Scope
+- Extend support for **multi-cloud environments**.  
+- Integrate with **blockchain** for auditability and trust.  
+- Optimize for **IoT devices** with limited resources.  
+
+---
+
+## Project Status
+Currently in **initial phase** → Requirement gathering, system design, and stack selection.  
+Implementation will focus on **Supabase + ECC + SRP integration**.  
+
+---
+
+## Team
+- Rishi Rohan K – B.Tech [AIML Dept/2026]
+- Naveen Nunna – B.Tech [AIML Dept/2026]
+- Yashwanth I – B.Tech [AIML Dept/2026]    
+- Guide/Mentor – K.Vinay Kumar  
