@@ -32,6 +32,8 @@ Identity, Elliptic Curve Cryptography (ECC), Privacy
 Python, MySQL, Socket Programming (Comm), Elliptic Curve Cryptography
 (ECC), Diffie–Hellman Algorithm, Anonymous Identity-based Authentication
 
+## Proposed Tech Stack 
+
 | **Technology / Library**                                 | **Purpose in Project**                                                                     | **Why it is Used**                                                                                                                                                                             |
 | -------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **React.js (Frontend)**                                  | User Interface for authentication, identity creation, and peer-to-peer session initiation. | React is lightweight, fast, and widely adopted. It allows building a **responsive, interactive UI** to demonstrate the authentication & key agreement process clearly.                         |
