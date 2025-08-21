@@ -1,6 +1,6 @@
 # Authentication-and-Key-Agreement-Based-on-Anonymous-Identity-for-Peer-to-Peer-Cloud  
 
-## 📑 Contents
+## Contents
 - [About the Project](#about-the-project)  
 - [How it Works](#how-it-works)  
 - [Tech Stack](#tech-stack)  
@@ -94,22 +94,22 @@ Implementation will focus on **Supabase + ECC + SRP** integration.
 ---
 
 ## 1.1 Proposed WorkFlow
-🔗 [Workflow Diagram](https://excalidraw.com/#json=RW6Gq3XCzuTYczAWhC_dc,KrRYR74FWcuyeC56unqQtg)  
+[Workflow Diagram](https://excalidraw.com/#json=RW6Gq3XCzuTYczAWhC_dc,KrRYR74FWcuyeC56unqQtg)  
 
 ---
 
 ## 1.2 PPT
-🔗 [Presentation Link](https://www.canva.com/design/DAGwmEsqdf0/d3DhYAAYNvSbJBak_QgfyQ/edit?utm_content=DAGwmEsqdf0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
+[Presentation Link](https://www.canva.com/design/DAGwmEsqdf0/d3DhYAAYNvSbJBak_QgfyQ/edit?utm_content=DAGwmEsqdf0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)  
 
 ---
 
 ## Existed Systems  
 
 ### 2.1 Existed System (2020 Proposed)  
-🔗 [Read Paper](https://ieeexplore.ieee.org/document/9123570)  
+[Read Paper](https://ieeexplore.ieee.org/document/9123570)  
 
 ### 2.2 Existed System (2022 Proposed)  
-🔗 [Read Paper](https://www.computer.org/csdl/journal/cc/2022/03/09123570/1kTwDCHSirK)  
+[Read Paper](https://www.computer.org/csdl/journal/cc/2022/03/09123570/1kTwDCHSirK)  
 
 ---
 
@@ -153,7 +153,7 @@ Peer-to-Peer (P2P) Cloud, Authentication, Key Agreement, Anonymous Identity, Ell
 ---
 
 ## About (Short)
-🔒 Secure authentication and key agreement protocol using **anonymous identities** for peer-to-peer cloud communication.  
+Secure authentication and key agreement protocol using **anonymous identities** for peer-to-peer cloud communication.  
 
 ---
 
@@ -168,32 +168,32 @@ Peer-to-Peer (P2P) Cloud, Authentication, Key Agreement, Anonymous Identity, Ell
 ---
 
 ## License
-📜 Licensed under **BSL-1.0**.  
+Licensed under **BSL-1.0**.  
 See [LICENSE](./LICENSE) for details.  
 
 ---
 
 ## Activity
-- ⭐ Stars: 1  
-- 👀 Watchers: 0  
-- 🍴 Forks: 0  
+- Stars: 1  
+- Watchers: 0  
+- Forks: 0  
 
 ---
 
 ## Releases
 No releases published.  
-👉 [Create a new release](../../releases)  
+[Create a new release](../../releases)  
 
 ---
 
 ## Packages
 No packages published.  
-👉 [Publish your first package](../../packages)  
+[Publish your first package](../../packages)  
 
 ---
 
 ## Footer
 <p align="center">
- 🔒 Built with <b>Security, Privacy, and Trust</b> in mind.  
- <br/>Made with ❤️ by <b>Team CKR</b>  
+ Built with <b>Security, Privacy, and Trust</b> in mind.  
+ <br/>Made with ❤️ by <b>Batch 04</b>  
 </p>
